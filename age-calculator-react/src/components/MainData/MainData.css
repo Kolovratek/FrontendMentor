@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  font-size: 80px;
+}
+
+.number {
+  font-family: "Poppins";
+  font-weight: 1000;
+  color: hsl(259, 100%, 65%);
+}
+
+.text {
+  font-family: "Poppins";
+  font-weight: 700;
+}
