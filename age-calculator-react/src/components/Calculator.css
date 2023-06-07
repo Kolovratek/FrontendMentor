@@ -1,0 +1,80 @@
+.form-row {
+  display: flex;
+  gap: 30px;
+}
+
+.form-inputs {
+  margin-top: 30px;
+}
+
+.form-inputs input {
+  width: 90px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 10px;
+  border: 1px solid gray;
+}
+
+.form-inputs input:focus,
+.form-inputs input.focused {
+  border-color: hsl(259, 100%, 65%);
+}
+
+.inputs-text {
+  font-size: 12px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  float: right;
+  border-radius: 30px;
+  background-color: hsl(259, 100%, 65%);
+  width: 70px;
+  height: 60px;
+  border: none;
+}
+
+.icon:active {
+  background-color: hsl(0, 0%, 8%);
+}
+
+hr {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+button {
+  width: 100px;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  margin-top: 13px;
+}
+
+.hr-arrow {
+  display: flex;
+}
+
+.flex-80 {
+  display: flex;
+  font-size: 80px;
+}
+
+.number {
+  font-family: "Poppins";
+  font-weight: 1000;
+  color: hsl(259, 100%, 65%);
+  margin-right: 5px;
+}
+
+.text {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: italic;
+}

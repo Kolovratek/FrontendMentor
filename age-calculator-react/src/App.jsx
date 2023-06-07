@@ -1,5 +1,4 @@
-import Inputs from "./components/Inputs/Inputs";
-import MainData from "./components/MainData/MainData";
+import Calculator from "./components/Calculator";
 import "./App.css";
 
 function App() {
@@ -7,8 +6,7 @@ function App() {
     <div className="main">
       <div className="card">
         <div className="card-div">
-          <Inputs />
-          <MainData />
+          <Calculator />
         </div>
       </div>
     </div>
