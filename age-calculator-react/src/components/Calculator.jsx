@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Input, Label, FormGroup, Form, Row, Col } from "reactstrap";
 import { ReactComponent as ArrowIcon } from "../icon-arrow.svg";
 import "./Calculator.css";
